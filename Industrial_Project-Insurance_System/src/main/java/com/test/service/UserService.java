@@ -7,5 +7,7 @@ public interface UserService {
 	public User saveUser(User user);
 	
 	public User registerUser(User user);
+	
+    public boolean login(String email, String password);
 
 }
